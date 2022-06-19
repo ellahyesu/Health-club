@@ -2,9 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "./views/Home";
 import Menu from "./views/Menu";
-import Beginner from "./views/Beginner";
-import MiddleClass from "./views/MiddleClass";
-import Pro from "./views/Pro";
+import Community from "./views/Community";
 
 Vue.use(VueRouter);
 
@@ -19,16 +17,8 @@ const router = new VueRouter({
       component: Menu
     },
     {
-      path: "/beginner",
-      component: Beginner
-    },
-    {
-      path: "/midclass",
-      component: MiddleClass
-    },
-    {
-      path: "/pro",
-      component: Pro
+      path: "/community",
+      component: Community
     }
   ]
 });

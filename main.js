@@ -14,6 +14,11 @@ Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 
+// Vue.component('ex-component', {
+//   props: ['propsdata'],
+//   template: '<h1>{{ propsdata }}</h1>'
+// });
+
 new Vue({
   router,
   render: h => h(App),

@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1 class="text-center mt-5">
-      주 간 식 단 표
-    </h1>
+
+    <div class="d-flex justify-content-between mt-3 mb-3"> 
+      <h2>주간식단표</h2>
+    </div>
+
   </div>
 </template>
 
